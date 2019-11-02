@@ -1,0 +1,35 @@
+body
+{
+    display:flex;
+    flex-direction:column;}
+
+main
+{
+    display:flex;
+    flex-direction:row;
+    flex:auto;
+}
+
+article
+{
+    flex:2;
+    overflow-y:auto}
+
+.image
+{text-align:center}
+
+h1{text-align:center}
+
+h2{text-align:left}
+
+h3{text-align:left}
+
+aside{
+    flex:1;
+    overflow-y:auto}
+
+footer
+{margin:20px 0px;}
+
+
+
